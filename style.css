@@ -2053,7 +2053,7 @@ form input {
 
 .menu_bg {
     position: fixed;
-    background-image: url("/img/web_bg_new.jpg");
+    background-image: url("./img/web_bg_new.jpg");
     width: 120vw;
     height: 100vh;
     left: -150vw;
