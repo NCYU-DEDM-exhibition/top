@@ -30,9 +30,6 @@ $(window).scroll(function() {
 
 /*-----loading-----*/
 
-let spinnerWrapper = document.querySelector('.loading_wrapper');
-
-window.addEventListener('load', function () {
-    // spinnerWrapper.style.display = 'none';
-    spinnerWrapper.parentElement.removeChild(spinnerWrapper);
-});
+window.onload = function() { 
+    $(".loading_wrapper").fadeOut(3000);
+};
