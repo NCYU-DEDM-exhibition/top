@@ -1422,7 +1422,7 @@ form input {
     height: 120px;
     left: 30%;
     top: 0%;
-    background-image: url("img/logo_top.svg");
+    background-image: url("./img/logo_top.svg");
     background-size: cover;
     clip-path: polygon(0% 15%, 0% 85%, 100% 85%, 100% 15%);
 }
