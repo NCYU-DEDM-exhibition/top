@@ -20,9 +20,11 @@ $(function() {
     });
 });
 
-$(window).scroll(function() {
+
+$(window).scroll(function () {
     if ($(this).scrollTop() > 500) {
-        $('#bar_bg').fadeIn();
+        $('#bar_bg').fadeIn(500);
+        $('#bar_bg').css('opacity', '0.5');
     } else {
         $('#bar_bg').fadeOut();
     }
@@ -30,6 +32,6 @@ $(window).scroll(function() {
 
 /*-----loading-----*/
 
-window.onload = function() { 
-    $(".loading_wrapper").fadeOut(3000);
-};
+$(window).on("load", function () {
+    $(".loading_wrapper").fadeOut("slow");
+});
