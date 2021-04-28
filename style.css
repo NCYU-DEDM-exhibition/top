@@ -35,6 +35,10 @@ body {
     font-family: "Alegreya Sans", "Noto Sans TC", sans-serif;
 }
 
+html{
+    overflow-y: hidden;
+}
+
 ::-webkit-scrollbar {
     width: 15px;
     background-color: transparent;
@@ -832,6 +836,7 @@ form input {
     left: 0;
     width: 100vw;
     height: 480vh;
+    visibility: hidden;
 }
 
 #section_trailer,

@@ -153,7 +153,7 @@
 
     #works_content::after,
     #about_content::after {
-        top: 0;
+        top: 0%;
         left: 70%;
         width: 30%;
         height: 1px;
@@ -355,10 +355,6 @@
 
 @media only screen and (max-width: 480px) {
 
-    /* *{
-        border: 1px solid;
-    } */
-
     #left_content {
         top: 25%;
         left: 20%;
@@ -372,7 +368,8 @@
     }
 
     .pink_line.sl2 {
-        height: 30vh;
+        bottom: 7.5%;
+        height: 10vh;
     }
 
     #tetris_line1 {
@@ -459,6 +456,10 @@
         font-size: 48px;
     }
 
+    .title.section_a {
+        top: 5%;
+    }
+
     #works_content {
         height: 70%;
     }
@@ -479,8 +480,53 @@
 
     .works_btn {
         width: 30px;
-        ;
         height: 30px;
+    }
+
+    #about_num {
+        font-size: 2px;
+    }
+
+    #about_content {
+        top: 5%;
+        height: 80%;
+    }
+
+    #about_logo {
+        width: 200px;
+        height: 68px;
+    }
+
+    #about_word {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    #info_event {
+        width: 75%;
+        left: 12.5%;
+    }
+
+    #info_event::before{
+        right: 0%;
+        width: 30%;;
+    }
+
+    #info_date {
+        left: 12.5%;
+        width: 75%;
+        font-size: 32px;
+        /* border: 1px solid; */
+    }
+
+    #info_address {
+        left: 12.5%;
+        width: 75%;
+        font-size: 12px;
+    }
+
+    .address_b {
+        font-size: 24px;
     }
 
     #menu_link_content {

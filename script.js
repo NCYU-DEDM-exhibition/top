@@ -1,6 +1,6 @@
 /*-----錨點-----*/
-$(function() {
-    $('a[href*="#"]:not([href="#"])').click(function() {
+$(function () {
+    $('a[href*="#"]:not([href="#"])').click(function () {
         if (
             location.pathname.replace(/^\//, "") ==
             this.pathname.replace(/^\//, "") &&
@@ -33,5 +33,7 @@ $(window).scroll(function () {
 /*-----loading-----*/
 
 $(window).on("load", function () {
+    $('html').css('overflow-y', 'auto');
     $(".loading_wrapper").fadeOut("slow");
+    $('#main_content').css('visibility', 'visible');
 });
