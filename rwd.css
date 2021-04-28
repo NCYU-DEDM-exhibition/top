@@ -1,12 +1,7 @@
 @media only screen and (max-width: 767px) {
-    
-    #footer{
-        display:none;
-    }
 
     #copyright {
         font-size: 8px;
-        text-align: center;
     }
 
     #left_content {
@@ -30,6 +25,13 @@
 
     .pink_line.tl3 {
         height: 0.5vh;
+    }
+
+    .pink_line.sl2 {
+        bottom: -6.5%;
+        right: 50%;
+        height: 20vh;
+        width: 0.5vh;
     }
 
     #tetris_line1 {
@@ -84,7 +86,7 @@
         border-image-slice: 1;
     }
 
-    #girl{
+    #girl {
         bottom: 0%;
     }
 
@@ -127,12 +129,12 @@
         animation: down2 2s infinite;
     }
 
-    .down_date{
+    .down_date {
         font-size: 24px;
         line-height: 20px;
     }
 
-    .down_event{
+    .down_event {
         font-size: 28px;
         line-height: 36px;
     }
@@ -149,12 +151,13 @@
         /* border: 1px solid; */
     }
 
-    #works_content::after {
-        display: none;
-    }
-
+    #works_content::after,
     #about_content::after {
-        display: none;
+        top: 0;
+        left: 70%;
+        width: 30%;
+        height: 1px;
+        margin-top: -85px;
     }
 
     .works {
@@ -200,12 +203,12 @@
     }
 
     #about_num {
-        font-size: 6px;
+        font-size: 4px;
     }
 
     #about_logo {
         width: 260px;
-        height: 92px;
+        height: 90px;
         left: 50%;
         transform: translate(-50%);
     }
@@ -352,6 +355,10 @@
 
 @media only screen and (max-width: 480px) {
 
+    /* *{
+        border: 1px solid;
+    } */
+
     #left_content {
         top: 25%;
         left: 20%;
@@ -362,6 +369,10 @@
 
     #top_logo {
         height: 86px;
+    }
+
+    .pink_line.sl2 {
+        height: 30vh;
     }
 
     #tetris_line1 {
@@ -416,63 +427,60 @@
         border-image-slice: 1;
     }
 
-    #girl{
-        left:-30%;
+    #girl {
+        left: -30%;
         bottom: 0%;
         width: 160%;
     }
 
-    #video_content{
+    #video_content {
         border: 1px solid #ffffff;
     }
 
-    #down{
+    #down {
         width: 120px;
         height: 120px;
         font-size: 10px;
         line-height: 14px;
     }
 
-    .down_date{
+    .down_date {
         font-size: 18px;
         line-height: 22px;
     }
 
-    .down_event{
+    .down_event {
         font-size: 20px;
         line-height: 22px;
     }
 
-    .title{
+    .title {
         margin-top: -35%;
         font-size: 48px;
     }
 
-    #works_content{
+    #works_content {
         height: 70%;
     }
 
-    .works{
+    .works {
         width: 120px;
         height: 120px;
     }
 
-    .w_title{
+    .w_title {
         font-size: 12px;
         line-height: 12px;
     }
 
-    .title_e{
+    .title_e {
         font-size: 8px;
     }
 
-    .works_btn{
-        width: 30px;;
+    .works_btn {
+        width: 30px;
+        ;
         height: 30px;
-    }
-    
-    #about_content{
-        display:none;
     }
 
     #menu_link_content {
