@@ -348,10 +348,6 @@
 
 @media only screen and (max-width: 480px) {
 
-    /* *{
-        border: 1px solid;
-    } */
-
     #left_content {
         top: 25%;
         left: 20%;
@@ -469,6 +465,10 @@
     .works_btn{
         width: 30px;;
         height: 30px;
+    }
+    
+    #about_content{
+        display:none;
     }
 
     #menu_link_content {
